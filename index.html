@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>George Best Linked Open Data Project</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/lultimologo.png" alt="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="ri-close-line fa" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="items.html">ITEMS</a></li>
+                        <li><a href="model.html">MODELLING</a></li>
+                        <li><a href="metadata.html">METADATA</a></li>
+                        <li><a href="knowledge.html">KNOWLEDGE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="ri-menu-line fa" onclick="showMenu()"></i>
+            </nav>
+
+
+        <div class="text-box">
+            <h1>George <span class="bestred">Best</span> Linked<br>
+                Open Data Project</h1>
+        </div>
+
+        </section>
+
+        <!-- Course -->
+
+        <section class="course">
+            <h1>Introduction</h1>
+            <h3><a class="courselink" href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/467174" target="_blank">Knowledge Organization and Cultural Heritage</a> Final Project</h3>
+            <p>The course aims to introduce the issue of organizing knowledge in archives, libraries and museums. The purpose of the project is to use the standards of the domain for data description; manage the practices oriented to the enrichment of data through semantic strategies (ontologies and controlled vocabularies); create complex metadata for digital objects in the cultural heritage domain.</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>His Life</h3>
+                    <p>George Best (May 22, 1946, Belfast - November 25, 2005) was a Northern Irish footballer. He was considered one of the most talented players in football history. He had the brightest days of his career when he played for Manchester United between 1963 and 1974. He played an important role in winning the 1965, 1967 league and 1968 Champions League titles. He was awarded the "Footballer of the Year" award in Europe in 1968 and came sixth in the FIFA Player of the Century vote.
+
+                        With his handsome looks and upbeat lifestyle, Best became known as The fifth Beatle by the media in 1966. Best's career, who suffered from alcoholism throughout his life, was inevitably affected by this habit.
+                        In 1974, at the age of 27, Best left Manchester United. Best experienced a serious decline in the later stages of his career. Transferred from club to club and played in many countries such as Ireland, USA, South Africa, Scotland and Australia.
+                        
+                        After retiring from football, he worked as a football analyst for a time, but his financial and health issues continued. He died in 2005 at the age of 59 due to multiple organ failure.</p>
+                        <h3>What and Why?</h3>
+                        <p>This project was created by Umut Kucuk for the final exam of the Knowledge Organization and Cultural Heritage course, taught by Professor Francesca Tomasi.
+    
+                            Football is mostly considered as a phenomenon belonging to lowbrow culture. There are many studies and debates on the cultural value of sport in general, or football in particular. Beyond these discussions, this study aims to create a linked open data project centered on George Best, who has marked a certain period with his talent and shaky life. For this purpose, 10 different items related to George Best, in several types, evaluated in the LAM area and previously defined on the web, were selected.
+                            </p>
+                
+                    </div>
+    
+            </div>
+
+        </section>
+
+    
+        <!-- Footer -->
+
+        <section class="footer">
+            <p>This project is a non-commercial work which it was created by Umut Kucuk<br> for the final exam of the Knowledge Organization and Cultural Heritage course, <br>taught by Professor Francesca Tomasi.
+                The content is licensed under CC BY-NC 4.0</p>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/umut-kucuk-071686156/" target="_blank"><i class="ri-linkedin-box-fill fa linkedin"></i></a>
+                <a href="https://github.com/umut-kucuk" target="_blank"><i class="ri-github-fill fa github"></i></a>
+            </div>
+            <p>May 2021</p>
+        </section>
+
+
+        
+        <!-- JavaScript for Toggle Menu -->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+</html>

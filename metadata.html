@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>George Best Linked Open Data Project</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/lultimologo.png" alt="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="ri-close-line fa" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="items.html">ITEMS</a></li>
+                        <li><a href="model.html">MODELLING</a></li>
+                        <li><a href="metadata.html">METADATA</a></li>
+                        <li><a href="knowledge.html">KNOWLEDGE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="ri-menu-line fa" onclick="showMenu()"></i>
+            </nav>
+
+
+        </section>
+
+        <!-- secmodelling us content-->
+
+        <section class="secmodelling-us">
+                <div class="secmodelling-col">
+                    <h2>Metadata Analysis and Alignment</h2><br>
+                    <p>Institutes provide descriptions of items. These descriptions are created on the basis of a specific metadata standard and vary according to the institution, type of item and area. In this part, the metadata standards used by the institutes in describing the selected items were analyzed. In addition to this, the alignment of analyzed metadata between different standards has also been carried out.</p>
+                    <br>
+                    <h3>Metadata Analysis</h3>
+                    <br>
+                    <img src="images/metadata1.jpg" alt="metadata analysis">
+                </div>
+                <div class="secmodelling-col">
+                    <h3>Metadata Alignment WHO</h3><br>
+                    <img src="images/metadata2.jpg" alt="metadata alignment who">
+                </div> 
+                <div class="secmodelling-col">
+                    <h3>Metadata Alignment WHEN</h3><br>
+                    <img src="images/metadata3.jpg" alt="Metadata Alignment WHEN">
+                </div>
+                <div class="secmodelling-col">
+                    <h3>Metadata Alignment WHERE</h3><br>
+                    <img src="images/metadata4.jpg" alt="Metadata Alignment WHEN">
+                </div>         
+                <div class="secmodelling-col">
+                    <h3>Metadata Alignment WHAT</h3><br>
+                    <img src="images/metadata5.jpg" alt="Metadata Alignment WHEN">
+                </div>                      
+        </section>
+
+ 
+        <!-- Footer -->
+
+        <section class="footer">
+            <p>This project is a non-commercial work which it was created by Umut Kucuk<br> for the final exam of the Knowledge Organization and Cultural Heritage course, <br>taught by Professor Francesca Tomasi.
+                The content is licensed under CC BY-NC 4.0</p>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/umut-kucuk-071686156/" target="_blank"><i class="ri-linkedin-box-fill fa linkedin"></i></a>
+                    <a href="https://github.com/umut-kucuk" target="_blank"><i class="ri-github-fill fa github"></i></a>
+                </div>
+            <p>May 2021</p>
+        </section>
+
+        
+        <!-- JavaScript for Toggle Menu -->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+</html>
